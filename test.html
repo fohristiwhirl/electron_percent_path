@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html><head><title>Test</title></head>
+<body>
+
+<p id="p">If this paragraph is not replaced, then an exception has occurred.</p>
+
+<script>
+	require("./empty");
+	document.getElementById("p").innerHTML = "Exception did not occur.";
+</script>
+
+</body></html>
